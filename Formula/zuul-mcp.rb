@@ -4,28 +4,28 @@
 class ZuulMcp < Formula
   desc "MCP server for interacting with Zuul CI"
   homepage "https://github.com/clappingmonkey/zuul-mcp"
-  version "0.12.0"
+  version "0.12.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.0/zuul-mcp-darwin-arm64"
-      sha256 "47f3b57155fbe215b7bc27044a9dd4f5cc2a6c05485bb93197698548f48ce21c"
+      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.1/zuul-mcp-darwin-arm64"
+      sha256 "496f46c605add4180dbd9527d14fab71f6d675dcc0a84f629d0c0d6cf313c2f6"
     end
     on_intel do
-      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.0/zuul-mcp-darwin-amd64"
-      sha256 "70115e2401d43ae208564c2754ec60758a6a37205b182462a4f05518f5fe0f86"
+      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.1/zuul-mcp-darwin-amd64"
+      sha256 "8834b0b14b9c8c21aa833362b85b74c30b2ef2a87c00fdb0d2f1253686d2cfbd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.0/zuul-mcp-linux-arm64"
-      sha256 "b0a88864d67b137912783538228c971762eee6fdfb8a73b37d55737d66f71374"
+      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.1/zuul-mcp-linux-arm64"
+      sha256 "97f6575ad15bc8aa3b5671f807735670b0dec6ec4c992b20e488748ef7baf7b8"
     end
     on_intel do
-      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.0/zuul-mcp-linux-amd64"
-      sha256 "4997301800c04833a995d7fbe87429d66f324c6c14bd85c63a67bdc193dc0fa1"
+      url "https://github.com/clappingmonkey/zuul-mcp/releases/download/v0.12.1/zuul-mcp-linux-amd64"
+      sha256 "736a35a41189ac3366f1c7f87073edf260676c629bc5cc98a25508c8668e1cd8"
     end
   end
 
